@@ -5,5 +5,5 @@ Running a public HTTP/Ollama LLM endpoint via a Google Colab notebook, benefitin
 Prompt it remotely 
 
 ```
-curl https://<your_ngrok_public_up>/api/generate -d '{ "model": "llama2","prompt": "Why is the sky blue?" }'
+curl https://<your_ngrok_public_hostname>/api/generate -d '{ "model": "llama2","prompt": "Why is the sky blue?" }'
 ```
